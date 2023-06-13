@@ -23,10 +23,12 @@
   },
   "intents" : [ {
     "path" : "/currency",
-    "answer" : "Рубль крепчает!",
+    "answer" : "",
     "enabled" : true,
     "shared" : false,
-    "phrases" : [ ],
+    "phrases" : [ {
+      "text" : "currency"
+    } ],
     "classificationRules" : {
       "refs" : [ ]
     },
@@ -49,17 +51,22 @@
     "shared" : false,
     "phrases" : [ {
       "text" : "привет"
+    }, {
+      "text" : "hello"
     } ],
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
     "priority" : 0
   }, {
     "path" : "/weather",
-    "answer" : "Солнышко, но когда-то будет дождик",
+    "answer" : "",
     "enabled" : true,
     "shared" : false,
-    "phrases" : [ ],
+    "phrases" : [ {
+      "text" : "weather"
+    } ],
     "classificationRules" : {
       "refs" : [ ]
     },
