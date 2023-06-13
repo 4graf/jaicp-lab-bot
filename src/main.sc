@@ -8,14 +8,17 @@ theme: /
 
     state: hello
         intent!: /привет
+        q!: * (~привет/~здравствуй/~здравствуйте/~добрый (день/вечер/утро/ночь)) *
         a: Привет привет!
 
     state: weather1
         intent!: /weather
+        q!: * (weather/~погода/~прогноз) *
         a: Солнечно, но будет когда-то дождик
         
     state: currency
         intent!: /currency
+        q!: * (~курс/~валют) *
         a: Рубль крепчает!
 
     state: NoMatch
