@@ -6,13 +6,17 @@ theme: /
         q!: $regex</start>
         a: Начнём.
 
-    state: Hello
+    state: hello
         intent!: /привет
         a: Привет привет
 
-    state: Bye
-        intent!: /пока
-        a: Пока пока
+    state: weather
+        intent!: /weather
+        a: Солнечно, но будет когда-то дождик
+        
+    state: currency
+        intent!: /currency
+        a: Рубль крепчает!
 
     state: NoMatch
         event!: noMatch
