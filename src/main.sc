@@ -10,7 +10,7 @@ theme: /
         intent!: /привет
         a: Привет привет
 
-    state: weather
+    state: weather1
         intent!: /weather
         a: Солнечно, но будет когда-то дождик
         
